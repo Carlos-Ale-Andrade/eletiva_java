@@ -1,0 +1,39 @@
+# Ignorar arquivos de build e IDEs em projetos Java/Maven
+
+# Arquivos de Build/Compilação do Maven
+######################################
+# Pasta gerada pelo Maven que contém os arquivos compilados (.class, etc)
+target/
+
+# Arquivos de classes compiladas (evita commitar classes soltas)
+*.class
+
+# Empacotamento
+*.jar
+*.war
+*.ear
+
+# Arquivos e diretórios de log
+*.log
+log/
+logs/
+
+# Arquivos temporários e de sistema
+tmp/
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code (Visual Studio Code)
+######################################
+# Arquivos de configuração específicos do usuário (geralmente não devem ser compartilhados)
+.vscode/
+
+# Configurações de outras IDEs comuns (se você não usar, apenas ignora)
+######################################
+.idea/
+*.iws
+*.iml
+*.ipr
+.settings/
+.classpath
+.project
